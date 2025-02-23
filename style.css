@@ -1,0 +1,289 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+.page1{
+  height: 87%;
+
+  background: linear-gradient(rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,0.8) 100%),
+
+  url('Netflix Netherlands – Watch TV Programmes Online, Watch Films Online_files/NL-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_e2413b6c-4c36-4323-a5f5-93df63606296_small.png');
+
+  border-bottom: solid rgba(64, 63, 63, 0.774) 0.7rem;
+  
+}
+
+header{
+  height: 18%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+.left img{
+  width: 50%;
+  height:5.2rem;
+  width: 11.2rem;
+}
+
+.right{
+  display: flex;
+}
+
+select{
+  margin-top: 1.7rem;
+  width: 9.2rem;
+  height: 2.1rem;
+  background-color: rgba(0, 0, 0, 0.531);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.right button{
+  margin-top: 1.7rem;
+  width: 5.6rem;
+  height: 2.1rem;
+  background-color: rgb(249, 5, 5);
+  color: aliceblue;
+  border: none;
+  border-radius: 4px;
+  margin-left: 22px;
+  font-weight: bold;
+}
+
+.right button:hover{
+  background-color: rgb(182, 12, 12);
+}
+
+.middlepart{
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.line1{
+  font-size: 1.9rem;
+}
+
+.middleline{
+  margin-top: 4px;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.line3{
+  font-size: 1.3rem;
+  margin-top: 18px;
+}
+
+.bigbutton{
+  height: 3.7rem;
+  width: 17rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(233, 1, 1);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.7rem;
+}
+.bigbutton p{
+  margin-left: 1.3rem;
+  font-weight: 300;
+}
+
+.bigbutton:hover{
+  background-color: rgb(215, 13, 13);
+}
+
+.page2{
+  height: 80%;
+  max-width: 100%;
+  border-bottom: solid rgba(64, 63, 63, 0.774) 0.7rem;
+  
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+}
+
+.lineFirst{
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin-top: 3.8rem;
+}
+
+.lineSecond{
+  font-size: 1.3rem;
+  margin-top: 1.0rem;
+}
+
+.image{
+  width:45%;
+  position: relative; 
+}
+
+.image img{
+  z-index: 5;
+}
+
+.image video{
+  width: 576px;
+  height: 370px;
+  z-index: 10;
+  z-index: 1; 
+}
+
+.image img, .image video { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+} 
+
+.page3{
+  height: 80%;
+  border-bottom: solid rgba(64, 63, 63, 0.774) 0.7rem;
+  
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstLine{
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin-top: 4.5rem;
+}
+
+.middleLine{
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.page3 img{
+  height: 420px;
+}
+
+.page4{
+  height: 80%;
+  border-bottom: solid rgba(64, 63, 63, 0.774) 0.7rem;
+  
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstPart{
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin-top: 4.0rem; 
+}
+
+.secondPart{
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;  
+}
+
+.thirdPart{
+  width:45%;
+  position: relative; 
+}
+
+.thirdPart img{
+  z-index: 5;
+}
+
+.thirdPart video{
+  width: 576px;
+  height: 370px;
+  z-index: 10;
+  z-index: 1; 
+  padding-left: 6.6rem;
+  padding-right: 3rem;
+}
+
+.thirdPart img, .thirdPart video { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+
+.page5{
+  height: 80%;
+  border-bottom: solid rgba(64, 63, 63, 0.774) 0.7rem;
+  
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1{
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin-top: 4.5rem;
+}
+
+.section2{
+  font-size: 1.3rem;
+  margin-top: 1.0rem;
+  margin-bottom: 1.5rem;
+}
+
+.section3 img{
+  height: 420px;
+}
+
+footer{
+  height: 60%;
+  border-bottom: solid rgba(64, 63, 63, 0.774) 0.7rem;
+  
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div {
+  text-decoration:underline;
+  text-decoration-color: rgb(162, 159, 159);
+  margin: 0rem 4rem;
+}
+
+footer div p{
+  font-weight: light;
+  color: rgb(162, 159, 159);
+}
